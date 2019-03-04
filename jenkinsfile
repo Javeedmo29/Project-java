@@ -5,7 +5,7 @@ tools {
     jdk 'java1.8.0'
   }
    stages {
-      stage('BUILD') {
+      stage('BUILDS') {
            steps {
            
            sh "mvn -B -DskipTests clean package"
